@@ -11,6 +11,7 @@
             "command": "g++",
             "args": [
                 "${file}",
+                "-g",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
@@ -42,6 +43,7 @@
             "command": "gcc",
             "args": [
                 "${file}",
+                "-g",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
@@ -74,14 +76,14 @@
             "group": "test"
         }
         // 바이너리 실행(Windows)
-        // {
-        //     "label": "execute",
-        //     "command": "cmd",
-        //     "group": "test",
-        //     "args": [
-        //         "/C", "${fileDirname}\\${fileBasenameNoExtension}"
-        //     ]
-    
-        // }
+        //{
+        //    "label": "execute",
+        //    "command": "cmd",
+        //    "group": "test",
+        //    "args": [
+        //        "/C", "${fileDirname}\\${fileBasenameNoExtension}"
+        //    ]
+    //
+        //}
     ]
 }

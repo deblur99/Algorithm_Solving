@@ -1,6 +1,8 @@
 {
+    "cmake.configureOnOpen": false,
     "files.associations": {
-        "typeinfo": "c",
+        "*.html": "html",
+        "stdbool.h": "c",
         "ostream": "cpp"
     }
 }
