@@ -5,9 +5,9 @@ int main() {
 
     while (true) {
         std::cin >> a >> b;
-        // if (std::cin.eof()) {
-        //     return 0;
-        // }
+        if (std::cin.eof()) {
+            return 0;
+        }
 
         if (a <= 0 || a >= 10) {
             return 0;
