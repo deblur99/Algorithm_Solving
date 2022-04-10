@@ -45,7 +45,7 @@ int main() {
     // task 2
     std::cout << arr[(int)floor(arr.size() / 2)] <<  "\n";
 
-    // task 3
+    // task 3 <- ongoing damn it
     idxArr.emplace_back(0);
     for (int i = 0; i < arr.size(); i++) {
         for (int j = 0; j < idxArr.size(); j++) {
