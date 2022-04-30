@@ -35,5 +35,9 @@ int main() {
         balloonList.push_back(Balloon(i+1, nextNumber));
     }
 
+    for (int i = 0; i < balloonList.size(); i++) {
+        balloonList.
+    }
+
     return 0;
 }
